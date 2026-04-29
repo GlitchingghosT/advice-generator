@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/given/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Advice Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+      :root {
+        /* ## Colors */
+
+        /* ### Primary */
+
+        --Blue-200: hsl(193, 38%, 86%);
+        --Green-300: hsl(150, 100%, 66%);
+
+        /* ### Neutral */
+
+        --Blue-600: hsl(217, 19%, 38%);
+        --Blue-900: hsl(217, 19%, 24%);
+        --Blue-950: hsl(218, 23%, 16%);
+      }
+
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[var(--Blue-950)] w-full max-w-[375px] md:max-w-[1440px]">
+    <div
+      class="relative bg-[var(--Blue-900)] md:w-120 md:h-90 md:ms-135 md:mt-35 flex flex-col md:gap-6 gap-8 items-center pt-10 rounded-[10px] ms-8 mt-20 w-90 h-100"
+    >
+      <h3
+        id="number"
+        class="text-[var(--Green-300)] text-[12px] tracking-[3px] font-bold"
+      >
+        ADVICE #117
+      </h3>
+      <h2
+        id="advice"
+        class="text-[var(--Blue-200)] font-extrabold text-[24px] text-center md:px-12 px-8 md:h-45 h-50"
+      >
+        "It is easy to sit up and take notice, what's difficult is getting up
+        and taking actions."
+      </h2>
+      <img
+        src="/given/images/pattern-divider-mobile.svg"
+        alt=""
+        class="md:hidden"
+      />
+      <img
+        src="/given/images/pattern-divider-desktop.svg"
+        alt=""
+        class="hidden md:block"
+      />
+      <div
+        id="dice"
+        class="absolute md:left-52 left-37 -bottom-7 bg-[var(--Green-300)] h-[60px] w-[60px] rounded-full flex items-center justify-center hover:cursor-pointer hover:shadow-[0_0_20px_var(--Green-300)]"
+      >
+        <img src="/given/images/icon-dice.svg" alt="" />
+      </div>
+    </div>
+    <!-- ============================= -->
+    <script src="/main.js"></script>
+  </body>
+</html>
