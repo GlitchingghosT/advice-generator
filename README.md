@@ -3,7 +3,7 @@
 A responsive Frontend Mentor implementation that fetches random advice from the Advice Slip API and presents it in a compact interactive card.
 
 - **Live demo:** https://advice-generator-tau.vercel.app
-- **Source:** https://github.com/GlitchingghosT/Advice-Generator
+- **Source:** https://github.com/GlitchingghosT/advice-generator
 
 ## Features
 
